@@ -19,20 +19,12 @@ Pillow 6.2.1
 ※動作させる際に環境によってはnumpyとopenCVとPillowのパッケージをインストールする必要がある。
 
 **暗号化の場合**
-	暗号化したい画像を用意し、コマンドライン引数に指定し、実行
+	暗号化したい画像を用意し、コマンドライン引数に指定し、実行。
 	`$python3 image_encoder.py filename`
-	
-	filenameが"secret.png"の場合には
-	`$python3 image_encoder.py secret.png`
-	
 	出力される"share1.png", "share2.png"が暗号化された画像。
 	
 **復号化の場合**	
-	復号化したい画像を二枚用意し、コマンドライン引数に指定し、実行
-	`$python3 image_encoder.py filename1 filename2`
-	
-	filename1が"share1.png"と、filename2が"share2.png"の場合には、
-	`$python3 image_encoder.py secret.png`
-	
+	復号化したい画像を二枚用意し、コマンドライン引数に指定し、実行。
+	`$python3 image_encoder.py filename1 filename2`	
 	出力される"DecryptImage.png"が復号化された画像。
 	
